@@ -1,0 +1,172 @@
+{
+    "designSystem": {
+      "colorPalette": {
+        "primary": "#3E64AE",
+        "secondary": "#2A2A2A",
+        "light": "#F2F2F2",
+        "dark": "#1D1D1D",
+        "accent": "#007AFF"
+      },
+      "typography": {
+        "heading": {
+          "h1": {
+            "fontFamily": "sans-serif",
+            "fontWeight": "bold",
+            "fontSize": "3.5rem",
+            "color": "#1D1D1D",
+            "alignment": "center"
+          },
+          "h2": {
+            "fontFamily": "sans-serif",
+            "fontWeight": "bold",
+            "fontSize": "2.5rem",
+            "color": "#1D1D1D"
+          },
+          "h3": {
+            "fontFamily": "sans-serif",
+            "fontWeight": "bold",
+            "fontSize": "1.5rem",
+            "color": "#1D1D1D"
+          }
+        },
+        "body": {
+          "p": {
+            "fontFamily": "sans-serif",
+            "fontWeight": "normal",
+            "fontSize": "1rem",
+            "color": "#1D1D1D",
+            "lineHeight": "1.5"
+          }
+        },
+        "footerText": {
+          "color": "#F2F2F2"
+        },
+        "cardText": {
+          "color": "#F2F2F2"
+        },
+        "buttonText": {
+          "color": "#FFFFFF"
+        }
+      },
+      "components": {
+        "containers": {
+          "heroContainer": {
+            "backgroundColor": "#2A2A2A",
+            "backgroundImage": "url('background.jpg')",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "opacity": 0.8
+          },
+          "contentContainer": {
+            "backgroundColor": "#FFFFFF",
+            "padding": "2rem"
+          },
+          "footerContainer": {
+            "backgroundColor": "#1D1D1D",
+            "padding": "3rem"
+          }
+        },
+        "cards": {
+          "infoCard": {
+            "backgroundColor": "#FFFFFF",
+            "shadow": "0px 4px 15px rgba(0, 0, 0, 0.1)",
+            "borderRadius": "8px",
+            "padding": "2rem",
+            "heading": {
+              "color": "#1D1D1D"
+            },
+            "body": {
+              "color": "#1D1D1D"
+            }
+          },
+          "serviceCard": {
+            "backgroundColor": "rgba(42, 42, 42, 0.8)",
+            "backgroundImage": "url('service-background.jpg')",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "color": "#F2F2F2",
+            "shadow": "0px 4px 15px rgba(0, 0, 0, 0.25)",
+            "borderRadius": "8px",
+            "padding": "2rem"
+          },
+          "photoCard": {
+            "backgroundColor": "rgba(42, 42, 42, 0.5)",
+            "backgroundImage": "url('photo-background.jpg')",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "borderRadius": "8px",
+            "label": {
+              "backgroundColor": "rgba(255, 255, 255, 0.2)",
+              "border": "1px solid #FFFFFF",
+              "borderRadius": "25px",
+              "padding": "0.5rem 1.5rem",
+              "color": "#FFFFFF"
+            },
+            "hoverState": {
+              "backgroundColor": "rgba(42, 42, 42, 0.7)"
+            }
+          }
+        },
+        "buttons": {
+          "primary": {
+            "backgroundColor": "#007AFF",
+            "color": "#FFFFFF",
+            "borderRadius": "4px",
+            "padding": "1rem 2rem",
+            "border": "none",
+            "shadow": "none",
+            "hoverState": {
+              "backgroundColor": "#0056CC"
+            }
+          }
+        },
+        "formElements": {
+          "input": {
+            "border": "1px solid #CCCCCC",
+            "borderRadius": "4px",
+            "padding": "0.75rem",
+            "color": "#1D1D1D",
+            "focusState": {
+              "outline": "none",
+              "borderColor": "#007AFF",
+              "boxShadow": "0 0 5px rgba(0, 122, 255, 0.5)"
+            }
+          },
+          "label": {
+            "color": "#1D1D1D",
+            "fontSize": "0.9rem",
+            "fontWeight": "bold"
+          },
+          "placeholder": {
+            "color": "#888888"
+          }
+        },
+        "icons": {
+          "contact": {
+            "color": "#2A2A2A",
+            "size": "1.5rem"
+          },
+          "logo": {
+            "strokeColor": "#3E64AE",
+            "fillColor": "none",
+            "text": {
+              "color": "#1D1D1D"
+            },
+            "subText": {
+              "color": "#888888"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "sectionPadding": "4rem 0",
+        "elementSpacing": "1.5rem"
+      },
+      "doNotRules": [
+        "DO NOT apply gradients to icons or button text.",
+        "DO NOT apply shadow effects to text. Shadows are reserved for card containers.",
+        "DO NOT use the accent color (#007AFF) for general body text; it is reserved for primary buttons and focus states.",
+        "DO NOT use a background image on form inputs or buttons."
+      ]
+    }
+  }
